@@ -1,0 +1,12 @@
+
+mode= LSST_Y6 1.000000e+04 2.030000e+01 3.500000e+01
+FoM(excl. S3 prior)=7.569116e+01
+FoM(incl. S3 prior)=1.193969e+02
+
+mode= LSST_Y6 1.500000e+04 2.350000e+01 4.100000e+01
+FoM(excl. S3 prior)=9.143965e+01
+FoM(incl. S3 prior)=1.390556e+02
+
+mode= LSST_Y6 2.000000e+04 2.690000e+01 4.800000e+01
+FoM(excl. S3 prior)=1.325803e+02
+FoM(incl. S3 prior)=1.799568e+02

@@ -271,7 +271,8 @@ class InputNuisanceParams(IterableStruct):
         c.lf[:] = np.repeat(0.0, 6)
         c.m_lambda[:] = [3.207, 0.993, 0.0, 0.456, -0.0, 0.0]
         return c
-
+    
+    @classmethod
     def fiducial_Y3(cls):
         c = cls()
         c.bias[:] = [1.392398e+00,1.500535e+00,1.613747e+00,1.731037e+00,1.851600e+00,1.974761e+00,2.100003e+00,1.0,1.0,1.0]
@@ -288,6 +289,7 @@ class InputNuisanceParams(IterableStruct):
         c.m_lambda[:] = [3.207, 0.993, 0.0, 0.456, -0.0, 0.0]
         return c
     
+    @classmethod
     def fiducial_Y6(cls):
         c = cls()
         c.bias[:] = [1.380752e+00,1.463865e+00,1.550281e+00,1.639495e+00,1.731037e+00,1.824565e+00,1.919738e+00,2.016299e+00,2.114025e+00,1.0]

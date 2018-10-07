@@ -204,9 +204,9 @@ flag=sys.argv[1]
 
 FM_params= sample_cosmology_2pt_cluster_SRD(int(sys.argv[5]),MG=False)
 
-f = open('Fishers/FoM.txt','a')
-h = open('Fishers/Fisher_all.txt','a')
-g = open('Fishers/Fisher_cosmo.txt','a')
+f = open('Fishers/FoM.txt'+sys.argv[1],'a')
+h = open('Fishers/Fisher_all.txt'+sys.argv[1],'a')
+g = open('Fishers/Fisher_cosmo.txt'+sys.argv[1],'a')
 
 print FM_params
 for i in range(0,1):
@@ -279,7 +279,7 @@ for i in range(0,1):
 
     FM=FM+Priormat
     FoM2=FM_analyze(FM,FM_params)
-    f.write('\n' + 'FoM(incl. S3(no w0wa) prior)=%e\n'%(FoM2))
+    f.write('\n' + 'FoM(incl. S3 prior)=%e\n'%(FoM2))
 
 f.close()
 g.close()
