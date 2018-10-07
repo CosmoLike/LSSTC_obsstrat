@@ -1,0 +1,12 @@
+qsub submit_scripts/oc_submit_script.sh
+qsub submit_scripts/oc_submit_script2.sh
+qsub submit_scripts/oc_submit_script3.sh
+qsub submit_scripts/oc_submit_script4.sh
+qsub submit_scripts/oc_submit_script5.sh 
+qsub submit_scripts/oc_submit_script6.sh
+qsub submit_scripts/oc_submit_script7.sh
+qsub submit_scripts/oc_submit_script8.sh
+qsub submit_scripts/oc_submit_script9.sh
+qsub submit_scripts/oc_submit_script10.sh 
+qsub submit_scripts/oc_submit_script11.sh
+qsub submit_scripts/oc_submit_script12.sh

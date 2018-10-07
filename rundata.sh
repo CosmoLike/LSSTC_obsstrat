@@ -1,0 +1,12 @@
+./like_fourier 0
+./like_fourier 1
+./like_fourier 2
+./like_fourier 3
+./like_fourier 4
+./like_fourier 5
+./like_fourier 6
+./like_fourier 7
+./like_fourier 8
+./like_fourier 9
+./like_fourier 10
+./like_fourier 11
