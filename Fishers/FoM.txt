@@ -1,0 +1,4 @@
+
+mode= LSST_Y1 7.500000e+03 9.800000e+00 1.500000e+01
+FoM(excl. S3(no w0wa) prior)=3.253712e+01
+FoM(incl. S3(no w0wa) prior)=4.255882e+01
